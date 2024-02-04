@@ -1,0 +1,45 @@
+  437  mkdir git-majonez
+  438  cd git-majonez/
+  439  git init
+  440  touch main.cpp
+  441  vim main.cpp 
+  442  git add main.cpp 
+  443  git status
+  444  cat main.cpp 
+  445  git commit -m "Initial commit"
+  446  git status
+  447  vim main.cpp 
+  448  g++ main.cpp 
+  449  ls
+  450  ./a.out 
+  451  git status
+  452  git add main.cpp 
+  453  git commit -m "Farawell changed"
+  454  git log --oneline 
+  455  git remote add origin https://github.com/marcin956/git-majonez.git
+  456  git push -u origin master
+  457  git status
+  458  git branch cs
+  459  git checkout cs
+  460  git status
+  461  git log --oneline 
+  462  git status
+  463  git reset --hard HEAD~1
+  464  git status
+  465  git log --oneline 
+  466  vim main.cpp 
+  467  git status
+  468  git add main.cpp 
+  469  git commit -m "Greetings"
+  470  git push origin cs
+  471  git checkout master 
+  472  git status
+  473  git merge cs
+  474  vim main.cpp 
+  475  git status
+  476  git add main.cpp 
+  477  git commit
+  478  history
+  479  history | tail -n 42
+  480  history | tail -n 45
+  481  history | tail -n 45 > history.txt
